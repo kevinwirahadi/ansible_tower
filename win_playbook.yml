@@ -1,6 +1,5 @@
 ---
 - hosts: all
   tasks:
-  - name: Hello Message
-    debug:
-      msg: "Hello World!"
+  - name: PowerShell Command
+    win_shell: ping google.com
